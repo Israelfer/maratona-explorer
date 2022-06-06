@@ -8,7 +8,7 @@ https://israelfer.github.io/maratona-explorer/
 
 ## Capturas de tela 🖼️
 
-![Screen One](./src//assets/print.png?raw=true 'screenshot')
+![Screen One](./assets/print.png?raw=true 'screenshot')
 
 ## Tecnologias 🛠️
 
