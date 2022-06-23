@@ -89,6 +89,19 @@ form button {
     transition: all 0.2s ease-in-out;
 }
 
+#answer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+#answer div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
 form button:hover,
 form button:focus {
     outline: none;

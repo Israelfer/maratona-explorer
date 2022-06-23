@@ -12,7 +12,7 @@ https://israelfer.github.io/maratona-explorer/
 
 ## Tecnologias 🛠️
 
-_Front-end:_ HTML 5, CSS3
+_Front-end:_ HTML 5, CSS3, JavaScript
 
 ## Autor
 

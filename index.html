@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/cristal-ball.svg">
     <link rel="stylesheet" href="style.css">
+    <script
+        type="text/javascript"
+        src="./index.js" defer>
+    </script>
 
     <title>Maratona Explorer</title>
 </head>
@@ -15,12 +20,13 @@
         </div>
         <div class="text">
             <h1>Vou revelar o seu destino!</h1>
-            <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+            <p>Clique em fazer pergunta para que seu destino seja revelado!</p>
         </div>
         <form>
-            <input type="text" placeholder="Digite sua pergunta">
-            <button type="submit">Fazer pergunta</button>
+            <input id="inputQuestion" type="text" placeholder="Digite sua pergunta">
+            <button id="buttonToAsk" onclick="toAsk()">Fazer pergunta</button>
         </form>
+        <h3 id="answer"></h3>
     </div>
 </body>
 </html>
